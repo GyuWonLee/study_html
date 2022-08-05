@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <script type="text/javascript">
+      //let user = new object();
+      let user = { // 객체 생성
+        name: 'John', // key : value
+        age: 30
+        "likes birds": true // key값 blank
+      }; // JSON(javascript object notation) 표기법
+    alert(user.name); // john
+    alert(user.age); // 30
+    user.isAdmin = true; // user 확인
+    //alert(user."likes birds") // 에러
+    alert(user["likes birds"]); // .도 되고 []도 가능
+    </script>
+  </body>
+</html>
